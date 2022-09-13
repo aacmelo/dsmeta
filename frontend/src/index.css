@@ -6,8 +6,8 @@
   margin: 0;
   padding: 0;
 }
-cd
-body,
+
+cd body,
 html {
   background-color: #000;
   color: #fff;
@@ -18,4 +18,14 @@ a:hover,
 a:visited {
   color: unset;
   text-decoration: none;
+}
+
+#sales {
+  padding: 40px 10px;
+}
+
+.dsmeta-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
