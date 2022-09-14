@@ -1,5 +1,5 @@
-import logo from "../../assets/img/logo.svg"
-import "./style.css"
+import logo from "../../assets/img/logo.svg";
+import "./style.css";
 
 function Head() {
     return (
@@ -17,4 +17,4 @@ function Head() {
         </>
     )
 }
-export default Head
+export default Head;
