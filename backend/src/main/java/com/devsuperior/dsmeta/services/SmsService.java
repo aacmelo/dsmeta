@@ -26,7 +26,7 @@ public class SmsService {
     @Autowired
     private SaleRepository saleRepository;
 
-    public void sendSms(Long saleId) {
+    public void sendSms(Long saleId) {  
 
         Sale sale = saleRepository.findById(saleId).get();
 
